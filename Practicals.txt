@@ -1,0 +1,47 @@
+ASDM Practicals 
+Practical 1: Set up GitHub account and send an email message to friend about the account.
+
+Practical 2 : Clone the repository at https:// github.com/KBCNMU
+com@DESKTOP-JHFEQSK MINGW64 /d/jaydip47 (main)
+$ git clone https://github.com/Jaydip-05/KBCNMU.git
+Cloning into 'KBCNMU'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Practical 3 : Use git add to add that file to the repository. Use git commit your change.
+
+com@DESKTOP-JHFEQSK MINGW64 /d/jaydip47 (main)
+$ cd KBCNMU
+com@DESKTOP-JHFEQSK MINGW64 /d/jaydip47/KBCNMU (main)
+$ touch new.html
+com@DESKTOP-JHFEQSK MINGW64 /d/jaydip47/KBCNMU (main)
+$ git add new.html
+com@DESKTOP-JHFEQSK MINGW64 /d/jaydip47/KBCNMU (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   new.html
+
+Practical 4 : Use git push to send your changes to primary repository. Use git commit your change.
+
+com@DESKTOP-JHFEQSK MINGW64 /d/jaydip47/KBCNMU (main)
+$ git commit -m "New file Added using Git add"
+[main 56b5a97] New file Added using Git add
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new.html
+
+com@DESKTOP-JHFEQSK MINGW64 /d/jaydip47/KBCNMU (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 294 bytes | 294.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Jaydip-05/KBCNMU.git
+   5a51cb4..56b5a97  main -> main
